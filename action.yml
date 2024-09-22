@@ -43,11 +43,11 @@ inputs:
   releaseName:
     description: "The release title"
     required: false
-  releaseReference:
-    description: >-
-      The git commit that will be linked to the last commit of the release.
-      If undefined, it will detect the latest commit and use it.
-    required: false
+#  releaseReference:
+#    description: >-
+#      The git commit that will be linked to the last commit of the release.
+#      If undefined, it will detect the latest commit and use it.
+#    required: false
   taskBaseUrl:
     description: >-
       The base url to append for a detected task (do not set a trailing `/`).
