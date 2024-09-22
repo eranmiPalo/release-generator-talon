@@ -116,7 +116,7 @@ export async function commitParser(
     owner,
     repo,
     base: baseRef,
-    head: releaseReference || context.sha,
+    head: context.sha,
   });
   const {
     data: { commits },
