@@ -43,11 +43,6 @@ inputs:
   releaseName:
     description: "The release title"
     required: false
-  releaseTag:
-    description: >-
-      The git tag that will be linked to the release.
-      If undefined, it will detect the latest tag and bump it.
-    required: false
   releaseReference:
     description: >-
       The git commit that will be linked to the last commit of the release.
