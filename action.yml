@@ -48,6 +48,11 @@ inputs:
       The git tag that will be linked to the release.
       If undefined, it will detect the latest tag and bump it.
     required: false
+  releaseReference:
+    description: >-
+      The git ref that will be linked to the release.
+      If undefined, it will detect the latest tag and bump it.
+    required: false
   taskBaseUrl:
     description: >-
       The base url to append for a detected task (do not set a trailing `/`).
